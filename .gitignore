@@ -1,0 +1,61 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directory
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Test reports
+reports/
+test-reports/
+coverage/
+*.coverage
+
+# Selenium WebDriver binaries (if any)
+chromedriver
+geckodriver
+msedgedriver
+
+# JUnit XML reports
+*.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE specific files
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+*.iml
+# Sublime Text
+sublime-project
+sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Docker files (if using Docker)
+docker-compose.yml
+Dockerfile
+
+# Pipenv (if using pipenv)
+Pipfile.lock
+
+# PyTest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
