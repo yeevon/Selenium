@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Selenium\\SeleniumPythonPracticeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|solutionrelative:SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleniumPythonPracticeProject.py",
+              "DocumentMoniker": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py",
+              "RelativeDocumentMoniker": "SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py",
+              "ToolTip": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py",
+              "RelativeToolTip": "SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-09-29T00:27:48.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
