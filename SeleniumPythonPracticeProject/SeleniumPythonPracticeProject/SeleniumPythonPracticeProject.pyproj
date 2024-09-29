@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>169965af-f79d-4206-9f12-8c92c4c9cf50</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SeleniumPythonPracticeProject.py</StartupFile>
+    <StartupFile>test_first.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SeleniumPythonPracticeProject.py" />
+    <Compile Include="test_first.py" />
+    <Compile Include="test_sample.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
