@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Selenium\\SeleniumPythonPracticeProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_first.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|solutionrelative:SeleniumPythonPracticeProject\\test_first.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_sample.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|solutionrelative:SeleniumPythonPracticeProject\\test_sample.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_browser_options.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{169965AF-F79D-4206-9F12-8C92C4C9CF50}|SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject.pyproj|solutionrelative:SeleniumPythonPracticeProject\\test_browser_options.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test_sample.py",
-              "DocumentMoniker": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_sample.py",
-              "RelativeDocumentMoniker": "SeleniumPythonPracticeProject\\test_sample.py",
-              "ToolTip": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_sample.py",
-              "RelativeToolTip": "SeleniumPythonPracticeProject\\test_sample.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-09-29T16:51:48.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "test_first.py",
-              "DocumentMoniker": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_first.py",
-              "RelativeDocumentMoniker": "SeleniumPythonPracticeProject\\test_first.py",
-              "ToolTip": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_first.py",
-              "RelativeToolTip": "SeleniumPythonPracticeProject\\test_first.py",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Title": "test_browser_options.py",
+              "DocumentMoniker": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_browser_options.py",
+              "RelativeDocumentMoniker": "SeleniumPythonPracticeProject\\test_browser_options.py",
+              "ToolTip": "C:\\Selenium\\SeleniumPythonPracticeProject\\SeleniumPythonPracticeProject\\test_browser_options.py",
+              "RelativeToolTip": "SeleniumPythonPracticeProject\\test_browser_options.py",
+              "ViewState": "AgIAACAAAAAAAAAAAAAawC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-09-29T00:27:48.417Z",
+              "WhenOpened": "2024-09-30T12:06:53.345Z",
               "EditorCaption": ""
             }
           ]

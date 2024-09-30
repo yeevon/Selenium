@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>SeleniumPythonPracticeProject</Name>
     <RootNamespace>SeleniumPythonPracticeProject</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,19 +23,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="test_browser_options.py" />
     <Compile Include="test_first.py" />
     <Compile Include="test_sample.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env\">
-      <Id>env</Id>
-      <Version>0.0</Version>
-      <Description>env (Python 3.12 (64-bit))</Description>
+    <Interpreter Include="env1\">
+      <Id>env1</Id>
+      <Version>3.11</Version>
+      <Description>env1 (Python 3.11 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
