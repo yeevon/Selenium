@@ -19,7 +19,7 @@ services:
     networks:
       - grid
     deploy:
-      replicas: 3  # 3 Chrome nodes
+      replicas: ${CHROME_NUM_REPLICAS}
 
   firefox-node:
     image: selenium/node-firefox:latest
@@ -33,7 +33,7 @@ services:
     networks:
       - grid
     deploy:
-      replicas: 3  # 3 Firefox nodes
+      replicas: ${FIREFOX_NUM_REPLICAS}
 
   edge-node:
     image: selenium/node-edge:latest
@@ -47,7 +47,7 @@ services:
     networks:
       - grid
     deploy:
-      replicas: 3  # 3 Edge nodes
+      replicas: ${EDGE_NUM_REPLICAS}
 
 networks:
   grid:

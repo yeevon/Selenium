@@ -40,7 +40,7 @@ To get started with this project, ensure you have the following prerequisites:
 3. Pull and run selenium standalone chrome image:
    ```bash
    docker run -d -p 4445:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
-3. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
+2. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
    ```bash
    pytest .\SeleniumPythonPracticeProject\Docker\test_webdriver_docker_standalone_chrome.py
    
@@ -52,9 +52,14 @@ To get started with this project, ensure you have the following prerequisites:
 2. Have Docker Desktop installed and running: https://app.docker.com/
 
 
-3. Run Docker compose to install images and run containers:
+3. Customize the number of nodes to be run from environmental variables
+   ```bash
+   CHROME_NUM_REPLICAS=1
+   FIREFOX_NUM_REPLICAS=0
+   EDGE_NUM_REPLICAS=0
+4. Run Docker compose to install images and run containers:
    ```bash
    docker-compose up -d
-3. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
+5. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
    ```bash
    pytest .\SeleniumPythonPracticeProject\Docker\node\test_webdriver_docker_node_chrome.py
