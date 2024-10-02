@@ -1,23 +1,19 @@
-import time
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
 # Define pytest fixture for setup and teardown
+@pytest.fixture(scope="function", params=["chrome", "firefox", "edge"])
+def driver(request):
+    rul = 'http://localhost:4444'
 
-
-@pytest.fixture(scope="function")
-def driver():
-    rul = 'http://localhost:4445'
-    driver = webdriver.Remote(
-        command_executor=rul,
-        options=webdriver.ChromeOptions()
-    )
-    time.sleep(2)
-
-    # Navigate to the test website
-    driver.get("https://www.selenium.dev/selenium/web/web-form.html")
+    if request.param == "chrome":
+        driver = webdriver.Remote(command_executor=rul, options=webdriver.ChromeOptions())
+    elif request.param == "firefox":
+        driver = webdriver.Remote(command_executor=rul, options=webdriver.FirefoxOptions())
+    else:
+        driver = webdriver.Remote(command_executor=rul, options=webdriver.EdgeOptions())
 
     # Yield the driver object to the test function
     yield driver
@@ -27,7 +23,7 @@ def driver():
 
 
 def test_first(driver):
-    time.sleep(10)
+    driver.get("https://www.selenium.dev/selenium/web/web-form.html")
     # Get test website title
     title = driver.title
 
@@ -41,7 +37,7 @@ def test_first(driver):
 
     # Get the resulting message
     message = driver.find_element(By.ID, "message").text
-    
+
     # Assert the message and the title
     assert message == "Received!"
     assert title == "Web form"
