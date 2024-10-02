@@ -29,12 +29,12 @@ To get started with this project, ensure you have the following prerequisites:
    pytest pytest '.\SeleniumPythonPracticeProject\Seleniumhq Documentation\test_webdriver.py'
    
 ## Running Docker
-### Instructions
+### Selenium Standalone - Instructions
 1. Clone the repository:
    ```bash
    git clone <https://github.com/yeevon/Selenium.git>
    cd <Selenium\SeleniumPythonPracticeProject>
-2. Have Docker Desktop installed: https://app.docker.com/
+2. Have Docker Desktop installed and running: https://app.docker.com/
 
 
 3. Pull and run selenium standalone chrome image:
@@ -43,3 +43,18 @@ To get started with this project, ensure you have the following prerequisites:
 3. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
    ```bash
    pytest .\SeleniumPythonPracticeProject\Docker\test_webdriver_docker_standalone_chrome.py
+   
+### Selenium Grid - Instructions
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/yeevon/Selenium.git>
+   cd <Selenium\SeleniumPythonPracticeProject>
+2. Have Docker Desktop installed and running: https://app.docker.com/
+
+
+3. Run Docker compose to install images and run containers:
+   ```bash
+   docker-compose up -d
+3. Use pytest to run test: https://docs.pytest.org/en/stable/how-to/usage.html
+   ```bash
+   pytest .\SeleniumPythonPracticeProject\Docker\node\test_webdriver_docker_node_chrome.py
